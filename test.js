@@ -194,7 +194,7 @@ it('Should return \'thirty one\' when 31 given', () => {
 
   assert.equal(readable, 'thirty one');
 });
-/* 
+
 it('Should return \'thirty two\' when 32 given', () => {
   const readable = toReadable(32);
 
@@ -302,7 +302,7 @@ it('Should return \'forty nine\' when 49 given', () => {
 
   assert.equal(readable, 'forty nine');
 });
-
+ 
 it('Should return \'fifty\' when 50 given', () => {
   const readable = toReadable(50);
 
@@ -602,7 +602,7 @@ it('Should return \'ninety nine\' when 99 given', () => {
 
   assert.equal(readable, 'ninety nine');
 });
-
+/*
 it('Should return \'one hundred\' when 100 given', () => {
   const readable = toReadable(100);
 
